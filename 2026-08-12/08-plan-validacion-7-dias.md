@@ -1,109 +1,163 @@
-# Plan de validación de 7 días — ID-01 CUADRE
+# Plan de descarte de 7 días — ID-01 CUADRE
 
-**Del 12 al 19 de agosto de 2026. Coste en dinero: 0 €. Coste en tiempo: 3–5 h/día. Sin escribir una línea de código.**
+**Estado:** el plan original queda supersedido por la auditoría adversarial.  
+**Decisión por defecto:** **NO EJECUTAR y NO CONSTRUIR.**
 
-Objetivo único: **saber cuántos euros al mes pierde de verdad un restaurante español en las liquidaciones de las plataformas.** Todo lo demás es secundario.
+Este documento solo define la última prueba que podría hacerse si se decide intentar refutar el descarte. Los primeros siete días prueban acceso, datos y preventa; el resultado económico debe observarse durante 21–30 días porque una semana no basta para verificar abonos.
 
----
-
-## Lista de prospectos: 30–50 nombres
-
-**Método (reproducible en 90 minutos):**
-
-1. **Red personal (objetivo: 15–25 nombres).** Recorrer la agenda del móvil y de WhatsApp y marcar a todo propietario o encargado de hostelería. Priorizar quien tenga **más de un local**.
-2. **Apps de delivery por ciudad (objetivo: 20–30 nombres).** Abrir Glovo y Uber Eats con la ubicación fijada en la ciudad objetivo, recorrer las categorías de mayor volumen (hamburguesa, pizza, sushi, poke, kebab) y anotar **las marcas que aparecen con varios locales**: esas son las que tienen volumen y no tienen departamento financiero.
-3. **Cruce con Google Maps** para obtener teléfono, web y nombre del propietario cuando aparezca en las reseñas.
-4. **Asociaciones provinciales de hostelería** (Hostelería de España y federaciones) para conseguir presentaciones cuando el contacto frío no funcione.
-
-**Ficha mínima por prospecto:** nombre comercial · nº de locales · plataformas en las que aparece · contacto · vía de acceso (frío / conocido / referido) · estado.
-
-*Nota de honestidad: no he verificado nombres concretos de empresas en esta investigación para no fabricar datos. El listado se genera con el método anterior en menos de dos horas, y los diez enlaces públicos de partida están en `06-nichos-prospeccion.csv`.*
+Auditoría de referencia: [09-auditoria-adversarial-ID-01.md](09-auditoria-adversarial-ID-01.md).
 
 ---
 
-## Mensaje de contacto
+## 1. Qué estaba mal en el plan original
 
-**WhatsApp / cara a cara (red personal):**
-
-> "Oye, estoy montando un servicio que revisa las liquidaciones de Glovo y Uber Eats y detecta lo que te descuentan mal: pedidos cancelados, penalizaciones, comisión sobre pedidos que se reembolsaron. Necesito 3 restaurantes para probarlo esta semana. ¿Me pasas las liquidaciones de los últimos 3 meses? Si encuentro dinero, lo reclamamos juntos y me llevo el 25 %. Si no encuentro nada, no me debes nada y te lo digo claro."
-
-**Correo/frío (2 líneas, sin adjuntos):**
-
-> Asunto: *lo que Glovo te descontó en julio*
-> "Reviso liquidaciones de plataformas de delivery y busco cargos reclamables. Lo hago gratis con tus 3 últimas liquidaciones y te digo en 48 h si hay dinero que recuperar. Solo cobro si recuperas. ¿Te las miro?"
-
----
-
-## Cinco preguntas de entrevista (abiertas, no dirigidas)
-
-1. ¿Cómo sabes cada mes cuánto has vendido realmente por plataformas y cuánto te ha llegado al banco?
-2. Cuéntame la última vez que algo no te cuadró en una liquidación. ¿Qué hiciste?
-3. ¿Qué pasa en tu local cuando un cliente reclama un pedido incompleto?
-4. ¿Quién revisa las liquidaciones y cuánto tiempo le dedica?
-5. Si te dijera que el mes pasado te descontaron X € de más, ¿qué harías con esa información?
-
-**Prohibido preguntar:** "¿pagarías por una herramienta que...?"
+- Pedía tres meses de liquidaciones, aunque gran parte estaría fuera de los 14 días de Uber o del mes aplicable de Glovo.
+- Validaba principalmente con la red personal, introduciendo sesgo de confianza, conveniencia y deseabilidad.
+- Trataba “detectado” como equivalente a “recuperable”.
+- No separaba reclamación presentada, aceptada y dinero abonado.
+- No comprobaba antes si la plataforma autorizaba a un proveedor externo.
+- Permitía un acuerdo informal por WhatsApp para un servicio con representación, datos y responsabilidad.
+- No medía minutos humanos por expediente.
+- El umbral de 150 €/local/mes era alto frente al benchmark disponible, pero insuficiente para sostener una comisión del 25 %.
 
 ---
 
-## Prototipo
+## 2. Condiciones previas
 
-No hay software. El entregable es un **informe de una página** (Excel + PDF) por restaurante:
+No se solicita ninguna liquidación hasta cumplir estas condiciones:
 
-- Comisión efectiva real por plataforma frente a la pactada.
-- Tabla de cargos detectados: concepto, fecha, importe, motivo por el que es reclamable, **días que quedan para reclamar**.
-- Total reclamable.
-- Texto de la reclamación listo para copiar y enviar.
+1. **Autorización:** obtener respuesta escrita de Glovo y Uber sobre qué figura permite a un proveedor externo revisar datos y presentar disputas. Si no existe, el restaurante deberá presentar cada expediente.
+2. **Sin credenciales compartidas:** el cliente exporta los ficheros; el proveedor nunca recibe su contraseña.
+3. **Contrato B2B:** prestación de servicios, mandato específico para actos permitidos, base de cálculo del success fee, limitación de responsabilidad y anexo de protección de datos.
+4. **Dinero directo al restaurante:** el proveedor no recibe ni custodia el abono de la plataforma.
+5. **Minimización:** eliminar nombre, teléfono, dirección y cualquier dato del consumidor que no sea imprescindible.
 
----
-
-## Oferta y precio que se intenta cobrar
-
-- **Auditoría inicial:** gratuita (es el anzuelo y la fuente de datos).
-- **Éxito:** **25 % de lo recuperado**, facturado cuando el cliente cobra o ve el abono en la siguiente liquidación.
-- **Compromiso que se pide:** acuerdo por escrito —aunque sea un WhatsApp explícito— de que si se recupera, se paga. Eso es lo que convierte un cumplido en una validación.
+Si el punto 1 falla, se descarta el servicio “gestionado” y solo podría evaluarse una herramienta de preparación de expedientes, con una economía distinta.
 
 ---
 
-## Calendario
+## 3. Muestra mínima
 
-| Día | Tarea | Resultado esperado | Tiempo | Criterio para continuar |
-|---|---|---|---|---|
-| **1 · Mié 12** | Listar 30–50 prospectos con el método de arriba. Enviar 8 mensajes a la red personal. | Lista hecha, 8 mensajes fuera | 3 h | ≥2 respuestas |
-| **2 · Jue 13** | Recoger liquidaciones. Enviar 15 mensajes más. Preparar la plantilla de auditoría en Excel. | ≥3 juegos de liquidaciones reales | 4 h | ≥3 juegos recibidos |
-| **3 · Vie 14** | Auditar a mano el primer juego. Anotar cada tipo de cargo encontrado. | Primer informe + catálogo de reglas | 5 h | Se detecta ≥1 cargo reclamable |
-| **4 · Lun 17** | Auditar los juegos 2 y 3. Consolidar la cifra media de fuga por local y mes. | 3 informes + la cifra clave | 5 h | **Fuga media ≥150 €/local/mes** |
-| **5 · Mar 18** | Entregar los informes en persona o por videollamada. Hacer las 5 preguntas. Pedir el acuerdo de éxito. | ≥1 acuerdo de éxito por escrito | 4 h | ≥1 acuerdo |
-| **6 · Mié 19** | Presentar la primera reclamación real ante la plataforma con el cliente. Contactar 10 prospectos más con el caso real. | Reclamación enviada, 10 contactos nuevos | 4 h | Reclamación admitida a trámite |
-| **7 · Jue 20** | Decisión. Escribir el informe de resultados en este mismo directorio. | GO / NO-GO documentado | 2 h | — |
+**Diez locales, no tres:**
 
-**Mínimo de conversaciones reales exigido: 8** (no mensajes enviados: conversaciones).
+- 2 contactos cálidos para depurar el flujo;
+- 3 referidos;
+- 5 completamente fríos.
+
+Los conocidos sirven para encontrar errores operativos. **Solo los clientes fríos cuentan para validar compra.**
+
+Criterio de volumen: registrar GMV mensual real por plataforma. No excluir locales de poco volumen después de ver el resultado; eso sería manipular la muestra.
 
 ---
 
-## Criterios de éxito (los tres a la vez)
+## 4. Ventana analizada
 
-1. **≥3 restaurantes** auditados con liquidaciones reales.
-2. **Fuga media ≥150 € por local y mes** en cargos reclamables o comisión mal aplicada.
-3. **≥1 acuerdo de éxito por escrito** y **≥1 reclamación presentada**.
+- **Uber Eats España:** últimos 14 días naturales desde la notificación del ajuste.
+- **Glovo:** como máximo un mes y solo para los supuestos contractuales aplicables de la cláusula 4.1.
+- **Histórico de tres meses:** puede analizarse para aprender formatos y patrones, pero se etiqueta como **fuera de plazo** y no se suma al recuperable.
 
-## Criterios de abandono
-
-- Fuga media **<60 €/local/mes** → la economía no existe. Se abandona ID-01 y se pasa a ID-02.
-- Nadie envía liquidaciones tras 8 conversaciones → el problema no le importa a nadie, o el fundador no tiene el acceso que cree tener. Igualmente decisivo.
-- Las plataformas rechazan de plano las reclamaciones en España sin proceso de revisión → el producto queda reducido a un informe informativo; se replantea el precio (solo suscripción baja) o se abandona.
-
-## Qué NO cuenta como validación
-
-Me gusta la idea · suena interesante · avísame cuando lo tengas · un registro en una landing · un "me apunto al beta".
-
-## Evidencia que autoriza empezar el MVP
-
-Los tres criterios de éxito cumplidos **y** un catálogo de al menos **cinco reglas de detección** escritas a partir de liquidaciones reales. Sin esas cinco reglas, no hay producto que programar.
+Cada restaurante debe aportar también su hoja de pedido, porcentaje de comisión pactado y condiciones particulares. Sin contrato individual no se puede afirmar que una comisión es incorrecta.
 
 ---
 
-## Después del día 7 (solo si hay GO)
+## 5. Cinco estados obligatorios
 
-- Días 8–30: MVP de tres funciones descrito en `05-top-3.md`.
-- Los tres primeros clientes entran a **49 €/local/mes + 20 % de éxito**, con precio congelado 12 meses a cambio de permitir usar su caso (anonimizado) en la venta.
+| Estado | Qué significa | ¿Cuenta como validación económica? |
+|---|---|---|
+| Cargo contractual | Coincide con lo pactado aunque sea desfavorable | No |
+| Discrepancia elegible | Hay base contractual y prueba para reclamar | No |
+| Reclamación presentada | La envió un administrador autorizado | No |
+| Reclamación aceptada | La plataforma reconoce el ajuste | No |
+| Dinero abonado | Aparece el abono en cuenta o liquidación | **Sí** |
+
+Solo el último estado entra en recuperación y success fee.
+
+---
+
+## 6. Entrevista
+
+Preguntas obligatorias:
+
+1. ¿Cómo concilias hoy pedido, liquidación y banco?
+2. Enséñame la última discrepancia que detectaste.
+3. ¿Qué prueba conservabas?
+4. ¿Quién presentó la reclamación y dentro de qué plazo?
+5. ¿Cuánto dinero terminó abonándose?
+6. ¿Cuántos minutos de trabajo consumió de principio a fin?
+7. ¿Darías acceso a un proveedor externo si la plataforma no ofrece un rol delegado formal?
+8. ¿Quién firma un contrato y autoriza el tratamiento de los ficheros?
+
+La pregunta decisiva es:
+
+> “Enséñame la última discrepancia que reclamaste: ¿qué prueba conservabas, quién la presentó, dentro de qué plazo y cuánto dinero terminó abonándose?”
+
+No se pregunta si “les gusta la idea”.
+
+---
+
+## 7. Calendario de los primeros siete días
+
+| Día | Trabajo | Evidencia exigida |
+|---|---|---|
+| 0 | Consultar por escrito a Glovo/Uber el flujo autorizado | Respuesta o documentación oficial |
+| 1 | Reclutar 2 cálidos, 3 referidos y 5 fríos | Diez locales identificados |
+| 2 | Firmar documentos y recibir exportaciones minimizadas | Contrato, anexo RGPD y datos de ventana vigente |
+| 3 | Auditar los dos cálidos y documentar reglas | Cargos separados entre contractual y elegible |
+| 4 | Auditar tres referidos y medir tiempo | Minutos por expediente y pruebas requeridas |
+| 5 | Auditar cinco fríos | Al menos dos clientes fríos aceptan el success fee |
+| 6 | Preparar reclamaciones; las presenta el administrador del restaurante | Justificante de presentación dentro de plazo |
+| 7 | Decisión de acceso y preventa | Continuar seguimiento o cerrar la idea |
+
+No hay desarrollo de software durante estos días.
+
+---
+
+## 8. Seguimiento de 21–30 días
+
+Registrar por local y plataforma:
+
+- GMV dentro de la ventana;
+- euros contractuales;
+- euros elegibles;
+- euros presentados;
+- euros aceptados;
+- euros abonados;
+- minutos humanos totales;
+- ingreso del proveedor;
+- ingreso por hora humana.
+
+Glovo puede tardar días laborables en responder. No se emite un GO económico el día 7.
+
+---
+
+## 9. Umbral de continuación
+
+Deben cumplirse **todos**:
+
+1. Existe flujo autorizado o la oferta se limita contractualmente a preparar expedientes.
+2. Al menos 2 clientes fríos firman.
+3. Recuperación media **≥300 € realmente abonados por local/mes**.
+4. Ingreso del proveedor **≥75 € por local/mes**.
+5. Ingreso **≥60 € por hora humana**.
+6. Al menos 60 % de las reclamaciones elegibles terminan abonadas.
+7. El tratamiento puede realizarse sin datos personales innecesarios.
+
+Estos umbrales son criterios operativos, no datos de mercado.
+
+---
+
+## 10. Criterios de descarte inmediato
+
+- Las plataformas no autorizan al proveedor y los restaurantes no quieren presentar los expedientes.
+- Menos de dos clientes fríos firman.
+- Recuperación abonada inferior a 300 €/local/mes.
+- Ingreso por hora humana inferior a 60 €.
+- La mayor parte de lo detectado resulta contractual o carece de prueba.
+- La operación exige compartir contraseñas.
+- El cliente objetivo necesita menos volumen del que hace viable el modelo.
+
+### Pregunta mortal
+
+**¿En diez locales que no sean amigos se pueden generar, de forma autorizada, al menos 75 € de ingreso bruto por local y mes y 60 € por hora humana, contando únicamente dinero realmente abonado?**
+
+Si no, ID-01 permanece descartado.
