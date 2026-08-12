@@ -1,0 +1,19 @@
+# Nada sensible debe entrar en este repositorio: es público.
+.env
+.env.*
+*.key
+*.pem
+credenciales*
+contrasenas*
+contraseñas*
+
+# Datos reales de clientes (liquidaciones, exportaciones de plataformas)
+liquidaciones/
+clientes/
+*.xlsx
+*.xls
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

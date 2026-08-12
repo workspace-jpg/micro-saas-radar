@@ -1,0 +1,143 @@
+{
+  "barrido": {
+    "fecha_investigacion": "2026-08-12",
+    "mercado_principal": "ES",
+    "mercado_expansion_declarado": "US",
+    "candidatos_generados": 18,
+    "candidatos_rankeados": 10,
+    "finalistas": ["ID-01", "ID-02", "ID-03"],
+    "recomendacion": "VALIDAR_ANTES_DE_DECIDIR",
+    "proyecto_unico_recomendado": "ID-01",
+    "pesos_criterios": {
+      "intensidad_urgencia": 15,
+      "frecuencia": 8,
+      "disposicion_a_pagar": 12,
+      "facilidad_encontrar_compradores": 15,
+      "viabilidad_mvp_2_4_semanas": 12,
+      "velocidad_primer_ingreso": 10,
+      "diferenciacion": 8,
+      "recurrencia_retencion": 8,
+      "momento_de_mercado": 6,
+      "escalado_espana_eeuu": 3,
+      "aprendizaje_tecnico": 3
+    }
+  },
+  "ranking": [
+    {
+      "posicion": 1,
+      "idea_id": "ID-01",
+      "nombre": "CUADRE",
+      "estado": "FINALISTA",
+      "score_base": 86,
+      "penalizaciones_total": -10,
+      "score_final": 76,
+      "confianza": "media",
+      "criterios": {
+        "intensidad_urgencia": {"puntos": 12, "sobre": 15, "justificacion": "Perdida economica real y contractualmente documentada, pero invisible hasta que alguien la ensena; la ventana de reclamacion de 30 dias anade urgencia genuina."},
+        "frecuencia": {"puntos": 8, "sobre": 8, "justificacion": "Liquidaciones quincenales en Glovo y semanales o quincenales en el resto: el problema se repite sin fin."},
+        "disposicion_a_pagar": {"puntos": 10, "sobre": 12, "justificacion": "El ROI se expresa en euros recuperados; el cobro a exito elimina la objecion de precio. No verificado todavia en Espana."},
+        "facilidad_encontrar_compradores": {"puntos": 14, "sobre": 15, "justificacion": "Las propias apps de delivery son el directorio de prospectos filtrado por ciudad, y el fundador ya tiene acceso a propietarios de varios locales."},
+        "viabilidad_mvp_2_4_semanas": {"puntos": 11, "sobre": 12, "justificacion": "Parseo de CSV y PDF, reglas de deteccion e informe. Cero integraciones obligatorias el primer dia."},
+        "velocidad_primer_ingreso": {"puntos": 9, "sobre": 10, "justificacion": "La version concierge se puede vender esta misma semana con Excel."},
+        "diferenciacion": {"puntos": 6, "sobre": 8, "justificacion": "El motor es replicable y la categoria existe en EE. UU.; la ventaja hoy es que en Espana no lo hace nadie y el fundador tiene acceso al nicho."},
+        "recurrencia_retencion": {"puntos": 7, "sobre": 8, "justificacion": "Revision mensual permanente; el volumen de lineas impide que el cliente vuelva a hacerlo a mano."},
+        "momento_de_mercado": {"puntos": 5, "sobre": 6, "justificacion": "Margenes de delivery estrechados tras la Ley Rider y comisiones efectivas del 25-35%."},
+        "escalado_espana_eeuu": {"puntos": 1, "sobre": 3, "justificacion": "EE. UU. ya tiene varios actores consolidados. La expansion natural es Portugal e Italia, donde operan las mismas plataformas."},
+        "aprendizaje_tecnico": {"puntos": 3, "sobre": 3, "justificacion": "Parseo de documentos, motor de reglas, informes y facturacion: reutilizable en cualquier producto posterior."}
+      },
+      "penalizaciones": {
+        "dependencia_plataforma_externa": -5,
+        "datos_dificiles_de_obtener": -2,
+        "soporte_o_personalizacion": -3
+      },
+      "riesgo_mortal": "Que la fuga media recuperable por local y mes en Espana sea inferior a 150 EUR.",
+      "evidencia_que_lo_mataria": "Auditar 5 liquidaciones reales y encontrar una media inferior a 60 EUR/mes o que las plataformas rechacen sistematicamente las reclamaciones en Espana."
+    },
+    {
+      "posicion": 2,
+      "idea_id": "ID-16",
+      "nombre": "CUADRE OTA",
+      "estado": "EXTENSION_DE_ID-01",
+      "score_base": 78,
+      "penalizaciones_total": -12,
+      "score_final": 66,
+      "confianza": "media-baja",
+      "nota": "Puntua alto porque reutiliza el motor de ID-01, pero no se desarrolla como finalista: es el mismo producto en otro nicho y abrirlo antes de validar ID-01 romperia la regla de un solo proyecto.",
+      "riesgo_mortal": "Dispersion de foco antes de tener un cliente pagando."
+    },
+    {
+      "posicion": 3,
+      "idea_id": "ID-02",
+      "nombre": "SAC28",
+      "estado": "FINALISTA",
+      "score_base": 73,
+      "penalizaciones_total": -13,
+      "score_final": 60,
+      "confianza": "media",
+      "criterios": {
+        "intensidad_urgencia": {"puntos": 11, "sobre": 15, "justificacion": "Obligacion legal con fecha cierta, pero la sancion se canaliza por la normativa general de consumo, lo que difumina el miedo."},
+        "frecuencia": {"puntos": 6, "sobre": 8, "justificacion": "Uso diario del registro de quejas, aunque el cumplimiento se revisa por ciclos."},
+        "disposicion_a_pagar": {"puntos": 9, "sobre": 12, "justificacion": "Las certificadoras ya venden adaptacion a esta ley: hay presupuesto asignado."},
+        "facilidad_encontrar_compradores": {"puntos": 11, "sobre": 15, "justificacion": "Censos publicos de CNMC para energia y telecomunicaciones; el segmento de mas de 250 empleados es identificable pero dificil de alcanzar."},
+        "viabilidad_mvp_2_4_semanas": {"puntos": 8, "sobre": 12, "justificacion": "Requiere expediente con SLA, evidencias y trazabilidad de cinco anos: alcanzable pero mas grande que ID-01."},
+        "velocidad_primer_ingreso": {"puntos": 5, "sobre": 10, "justificacion": "Comprador corporativo con proceso de compra lento."},
+        "diferenciacion": {"puntos": 6, "sobre": 8, "justificacion": "Ningun CRM generalista produce el expediente de auditoria que exige la ley."},
+        "recurrencia_retencion": {"puntos": 7, "sobre": 8, "justificacion": "Obligacion permanente con auditoria anual."},
+        "momento_de_mercado": {"puntos": 6, "sobre": 6, "justificacion": "Fecha limite el 28/12/2026: la ventana de venta esta abierta ahora."},
+        "escalado_espana_eeuu": {"puntos": 1, "sobre": 3, "justificacion": "Norma puramente espanola."},
+        "aprendizaje_tecnico": {"puntos": 3, "sobre": 3, "justificacion": "Motor de SLA, trazabilidad y generacion de informes."}
+      },
+      "penalizaciones": {
+        "ciclo_comercial_superior_60_dias": -8,
+        "soporte_o_personalizacion": -3,
+        "riesgo_regulatorio_interpretativo": -2
+      },
+      "riesgo_mortal": "Que en energia y telecomunicaciones prevalezca la normativa sectorial ya existente y el comprador concluya que no necesita nada nuevo."
+    },
+    {
+      "posicion": 4,
+      "idea_id": "ID-03",
+      "nombre": "PMST Express",
+      "estado": "FINALISTA",
+      "score_base": 65,
+      "penalizaciones_total": -13,
+      "score_final": 52,
+      "confianza": "media-baja",
+      "criterios": {
+        "intensidad_urgencia": {"puntos": 9, "sobre": 15, "justificacion": "Fecha limite muy proxima (5/12/2026) pero sancion leve de 101 a 2.000 EUR; el incentivo real es la devolucion de ayudas publicas y la presion de la representacion de los trabajadores."},
+        "frecuencia": {"puntos": 3, "sobre": 8, "justificacion": "Es un entregable puntual con revision anual."},
+        "disposicion_a_pagar": {"puntos": 8, "sobre": 12, "justificacion": "Presupuesto tipico de consultoria; se puede capturar una fraccion."},
+        "facilidad_encontrar_compradores": {"puntos": 10, "sobre": 15, "justificacion": "Grandes empleadores y sector publico son identificables, pero no hay lista publica unica de centros con mas de 200 trabajadores."},
+        "viabilidad_mvp_2_4_semanas": {"puntos": 10, "sobre": 12, "justificacion": "Encuesta a plantilla mas generador documental: sencillo."},
+        "velocidad_primer_ingreso": {"puntos": 8, "sobre": 10, "justificacion": "La fecha limite obliga a decidir en semanas."},
+        "diferenciacion": {"puntos": 5, "sobre": 8, "justificacion": "Existe guia oficial gratuita y ofertas productizadas low-cost."},
+        "recurrencia_retencion": {"puntos": 4, "sobre": 8, "justificacion": "Solo el seguimiento anual genera recurrencia."},
+        "momento_de_mercado": {"puntos": 6, "sobre": 6, "justificacion": "115 dias hasta la fecha limite."},
+        "escalado_espana_eeuu": {"puntos": 0, "sobre": 3, "justificacion": "No exportable."},
+        "aprendizaje_tecnico": {"puntos": 2, "sobre": 3, "justificacion": "Encuestas y generacion documental."}
+      },
+      "penalizaciones": {
+        "ciclo_comercial_superior_60_dias": -6,
+        "soporte_o_personalizacion": -5,
+        "riesgo_regulatorio_relajacion": -2
+      },
+      "riesgo_mortal": "Con una multa maxima de 2.000 EUR, muchas empresas eligen incumplir y el mercado se evapora en enero de 2027."
+    },
+    {"posicion": 5, "idea_id": "ID-04", "nombre": "CAE Ready", "estado": "DESCARTADO-VIGILAR", "score_base": 62, "penalizaciones_total": -12, "score_final": 50, "confianza": "media", "riesgo_mortal": "Mas de 15 plataformas competidoras, alguna con plan gratuito."},
+    {"posicion": 6, "idea_id": "ID-10", "nombre": "Accesible", "estado": "VIGILAR", "score_base": 60, "penalizaciones_total": -10, "score_final": 50, "confianza": "baja", "riesgo_mortal": "Sin sanciones publicadas en Espana, la urgencia es teorica y la venta se vuelve educativa."},
+    {"posicion": 7, "idea_id": "ID-05", "nombre": "Recogida trimestral", "estado": "DESCARTADO", "score_base": 60, "penalizaciones_total": -12, "score_final": 48, "confianza": "media", "riesgo_mortal": "Startups espanolas ya posicionadas y ERPs contables integrandolo."},
+    {"posicion": 8, "idea_id": "ID-14", "nombre": "Registro STR", "estado": "DESCARTADO", "score_base": 58, "penalizaciones_total": -12, "score_final": 46, "confianza": "media", "riesgo_mortal": "Los PMS y Chekin ya cubren el flujo completo."},
+    {"posicion": 9, "idea_id": "ID-13", "nombre": "Libro F-Gas", "estado": "DESCARTADO", "score_base": 55, "penalizaciones_total": -10, "score_final": 45, "confianza": "media", "riesgo_mortal": "Modulo estandar en los ERP de oficios."},
+    {"posicion": 10, "idea_id": "ID-12", "nombre": "Deposito", "estado": "RADAR", "score_base": 60, "penalizaciones_total": -20, "score_final": 40, "confianza": "baja", "riesgo_mortal": "Falta normativa tecnica y el operador autorizado ocupara el hueco."}
+  ],
+  "descartados_no_rankeados": [
+    {"idea_id": "ID-06", "nombre": "Plan Cero", "score_final": 38, "motivo": "Herramienta gratuita de Hosteleria de Espana y microempresas exentas."},
+    {"idea_id": "ID-08", "nombre": "e-Factura Bridge", "score_final": 37, "motivo": "Solucion publica gratuita prevista y obligacion en 2027-2028."},
+    {"idea_id": "ID-15", "nombre": "IA Compliance Kit", "score_final": 38, "motivo": "Sin supervision efectiva sobre pymes."},
+    {"idea_id": "ID-18", "nombre": "Brecha Cero", "score_final": 37, "motivo": "Norma espanola no aprobada y comprador de mas de 100 empleados."},
+    {"idea_id": "ID-11", "nombre": "Alertas de licitacion", "score_final": 35, "motivo": "Alternativas gratuitas suficientes."},
+    {"idea_id": "ID-17", "nombre": "NIS2 Starter", "score_final": 33, "motivo": "Ley pendiente y exigencia de credibilidad tecnica alta."},
+    {"idea_id": "ID-07", "nombre": "Verifactu Bridge", "score_final": 30, "motivo": "Plazo aplazado a 2027 y mercado saturado."},
+    {"idea_id": "ID-09", "nombre": "Fichaje Digital", "score_final": 30, "motivo": "Categoria hipersaturada y decreto sin publicar."}
+  ]
+}
