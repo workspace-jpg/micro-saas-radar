@@ -1,0 +1,87 @@
+{
+  "barrido": {
+    "id": "barrido-2",
+    "fecha_investigacion": "2026-08-12",
+    "alcance": "Terreno nuevo: plataformas y APIs, precios y cierres de SaaS, tareas automatizables, marketplaces y verticales fuera de hosteleria",
+    "exclusiones_aplicadas": "Las 18 ideas del barrido-1 no se re-presentan",
+    "candidatos_generados": 18,
+    "candidatos_rankeados": 10,
+    "descartados_por_fuente_primaria": 4,
+    "finalistas": ["N-04", "N-09", "N-06"],
+    "recomendacion": "MANTENER_ID-01_DEL_BARRIDO_1",
+    "mejor_candidato_nuevo": "N-04",
+    "score_mejor_candidato_nuevo": 64,
+    "score_a_batir_id_01": 76,
+    "conclusion": "Ningun candidato nuevo supera a ID-01. El valor del barrido ha sido descartar el DeCA, que parecia la mejor oportunidad disponible y esta ocupado."
+  },
+  "ranking": [
+    {
+      "posicion": 1,
+      "idea_id": "N-04",
+      "nombre": "PIXEL VIVO",
+      "estado": "FINALISTA",
+      "score_base": 77,
+      "penalizaciones_total": -13,
+      "score_final": 64,
+      "confianza": "media-baja",
+      "criterios": {
+        "intensidad_urgencia": {"puntos": 11, "sobre": 15, "justificacion": "Se pierde dinero en publicidad sin saberlo; el fallo es silencioso, que es lo que lo hace grave y a la vez dificil de vender."},
+        "frecuencia": {"puntos": 7, "sobre": 8, "justificacion": "La rotura del seguimiento no es un evento unico: se repite con cambios de tema, apps y consentimiento."},
+        "disposicion_a_pagar": {"puntos": 9, "sobre": 12, "justificacion": "Quien gasta 5.000 EUR/mes en anuncios paga 99 EUR por saber si su medicion funciona, si se le demuestra que esta rota."},
+        "facilidad_encontrar_compradores": {"puntos": 12, "sobre": 15, "justificacion": "35.443 sitios Shopify en Espana y deteccion tecnologica trivial; ademas las agencias son canal natural."},
+        "viabilidad_mvp_2_4_semanas": {"puntos": 9, "sobre": 12, "justificacion": "Comparar pedidos de Shopify con conversiones de Meta y Google exige tres APIs, pero el fundador ya tiene un agente de la API de Meta funcionando."},
+        "velocidad_primer_ingreso": {"puntos": 8, "sobre": 10, "justificacion": "La auditoria manual es vendible esta misma semana con una fecha limite a 14 dias."},
+        "diferenciacion": {"puntos": 4, "sobre": 8, "justificacion": "Categoria saturada globalmente. El unico angulo es la cola larga espanola que no paga 250 USD/mes."},
+        "recurrencia_retencion": {"puntos": 6, "sobre": 8, "justificacion": "La vigilancia es recurrente, pero el cliente puede percibirla como innecesaria cuando todo funciona."},
+        "momento_de_mercado": {"puntos": 6, "sobre": 6, "justificacion": "26 de agosto de 2026 a 14 dias vista."},
+        "escalado_espana_eeuu": {"puntos": 2, "sobre": 3, "justificacion": "Exportable, aunque EE. UU. es justo donde esta la competencia."},
+        "aprendizaje_tecnico": {"puntos": 3, "sobre": 3, "justificacion": "APIs de Shopify, Meta y Google Ads: directamente reutilizable con el agente de Meta que ya existe."}
+      },
+      "penalizaciones": {
+        "dependencia_plataforma_externa": -7,
+        "soporte_o_personalizacion": -4,
+        "datos_dificiles_de_obtener": -2
+      },
+      "riesgo_mortal": "Que el hueco se cierre solo: Shopify y las propias plataformas publicitarias tienen incentivo para avisar de la rotura, y hay siete competidores con producto hecho."
+    },
+    {
+      "posicion": 2,
+      "idea_id": "N-09",
+      "nombre": "COBRO TALLER",
+      "estado": "VIGILAR",
+      "score_base": 66,
+      "penalizaciones_total": -12,
+      "score_final": 54,
+      "confianza": "baja",
+      "riesgo_mortal": "Toda la evidencia disponible procede de blogs de proveedores de software. Sin hablar con talleres reales no se puede puntuar mejor.",
+      "nota": "Mismo patron economico que ID-01: dinero devengado que nadie persigue. Merece una comprobacion si ID-01 cae."
+    },
+    {
+      "posicion": 3,
+      "idea_id": "N-06",
+      "nombre": "RESENA VIVA",
+      "estado": "VIGILAR",
+      "score_base": 62,
+      "penalizaciones_total": -12,
+      "score_final": 50,
+      "confianza": "baja",
+      "riesgo_mortal": "BrightLocal, Localo y Partoo ya monitorizan resenas; el hueco se reduce a detectar borrados, que es una funcion, no un producto."
+    },
+    {"posicion": 4, "idea_id": "N-12", "nombre": "AMAZON RECOVERY", "estado": "DESCARTADO", "score_base": 62, "penalizaciones_total": -16, "score_final": 46, "confianza": "baja", "riesgo_mortal": "Amazon bajo tarifas en 2026 y automatiza cada vez mas reembolsos: el dolor decrece."},
+    {"posicion": 5, "idea_id": "N-08", "nombre": "TRIPLE COTEJO", "estado": "DESCARTADO", "score_base": 58, "penalizaciones_total": -12, "score_final": 46, "confianza": "media", "riesgo_mortal": "Categoria consolidada y comprador de tamano medio con ciclo largo."},
+    {"posicion": 6, "idea_id": "N-03", "nombre": "DECA CARGADOR", "estado": "DESCARTADO", "score_base": 60, "penalizaciones_total": -16, "score_final": 44, "confianza": "media", "riesgo_mortal": "Los proveedores del transportista cubren tambien al cargador."},
+    {"posicion": 7, "idea_id": "N-01", "nombre": "DECA MERCANCIAS", "estado": "DESCARTADO", "score_base": 70, "penalizaciones_total": -28, "score_final": 42, "confianza": "alta", "riesgo_mortal": "Guerra de precios ya iniciada: 9,90 EUR/mes y un competidor regalando el servicio hasta la fecha limite.", "nota": "Es la oportunidad con mejor senal bruta de los dos barridos y aun asi se descarta. La fecha, el universo de 101.326 empresas y el 17% de preparacion no bastan cuando llegas 54 dias tarde a un mercado con 12 proveedores."},
+    {"posicion": 8, "idea_id": "N-02", "nombre": "HOJA DE RUTA BUS", "estado": "DESCARTADO", "score_base": 68, "penalizaciones_total": -30, "score_final": 38, "confianza": "alta", "riesgo_mortal": "CONFEBUS, la patronal que agrupa al 70% del sector, ya distribuye RutaBUS a sus asociados."},
+    {"posicion": 9, "idea_id": "N-10", "nombre": "CITA SEGURA", "estado": "DESCARTADO", "score_base": 55, "penalizaciones_total": -18, "score_final": 37, "confianza": "baja", "riesgo_mortal": "Saturacion total: asistentes de voz con IA, software clinico y agencias."},
+    {"posicion": 10, "idea_id": "N-07", "nombre": "COSTE WHATSAPP", "estado": "DESCARTADO", "score_base": 48, "penalizaciones_total": -12, "score_final": 36, "confianza": "media", "riesgo_mortal": "El ahorro absoluto es demasiado pequeno para sostener una suscripcion."}
+  ],
+  "descartados_por_fuente_primaria": [
+    {"idea_id": "N-15", "nombre": "eCMR internacional", "motivo": "La FAQ oficial del Ministerio afirma: 'No, no es obligatorio el eCMR'."},
+    {"idea_id": "N-16", "nombre": "DeCA para paqueteria", "motivo": "Exencion expresa del articulo 2 de la Orden FOM/2861/2012."},
+    {"idea_id": "N-17", "nombre": "DeCA para transporte privado complementario", "motivo": "No aplica: 52.775 empresas quedan fuera de la obligacion."},
+    {"idea_id": "N-18", "nombre": "Firma electronica para el DeCA", "motivo": "La firma del DeCA no es obligatoria; es voluntaria."}
+  ],
+  "no_evaluado": [
+    {"idea_id": "N-14", "nombre": "Extensiones de navegador y Manifest V3", "motivo": "Presupuesto de busquedas agotado en la verificacion del DeCA. Pendiente para un barrido futuro."}
+  ]
+}

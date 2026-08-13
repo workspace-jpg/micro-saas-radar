@@ -2,9 +2,20 @@
 
 Investigación de oportunidades de micro-SaaS para el mercado español, con validación previa a cualquier desarrollo.
 
-- **Fecha del barrido:** 12 de agosto de 2026
 - **Contexto del fundador:** una persona, nivel técnico principiante asistido por Claude Code, presupuesto bajo, prioridad = primeros ingresos, MVP de 2 a 4 semanas, un solo proyecto activo.
-- **Resultado:** 18 candidatos generados → 10 rankeados → 3 finalistas → **1 recomendación única: ID-01**.
+
+## Barridos realizados
+
+| Barrido | Fecha | Alcance | Candidatos | Resultado |
+|---|---|---|---|---|
+| [**#1**](2026-08-12/) | 12/08/2026 | Señales regulatorias, hostelería y negocio local | 18 → 10 → 3 | **ID-01 (76/100)** — recomendación única |
+| [**#2**](2026-08-12-barrido-2/) | 12/08/2026 | Terreno nuevo: plataformas y APIs, precios de SaaS, tareas automatizables, verticales fuera de hostelería | 18 → 10 → 3 | Mejor candidato **N-04 (64/100)**. **No supera a ID-01** |
+
+**Conclusión combinada: ID-01 sigue siendo el proyecto único.**
+
+El barrido #2 tuvo su valor en un descarte, no en una idea. La señal más potente de los dos barridos era el **DeCA** —documento de control del transporte, obligatorio el 5 de octubre de 2026, 101.326 empresas afectadas, solo el 17 % preparadas, con inmovilización del vehículo como sanción— y está **ocupada**: doce proveedores en mercancías (uno a 9,90 €/mes, otro gratis hasta la fecha límite) y, en viajeros, la propia patronal del sector (CONFEBUS) distribuyendo su herramienta RutaBUS a ~2.000 asociados.
+
+De ahí salió una regla de descarte permanente: **cuando una obligación legal afecta de forma masiva a un sector organizado, la patronal saca la herramienta gratis antes de la fecha límite.** Ya son dos casos confirmados (Hostelería de España con el desperdicio alimentario, CONFEBUS con la hoja de ruta digital).
 
 > **Estado actual: ID-01 NO está validado.** Está listo para una prueba comercial de 7 días que no requiere escribir código. Este repositorio existe para que la tesis sea auditada y atacada antes de invertir tiempo en construir.
 
