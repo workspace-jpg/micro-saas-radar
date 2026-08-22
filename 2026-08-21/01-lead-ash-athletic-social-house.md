@@ -1,8 +1,9 @@
 # Lead ASH — Athletic Social House (Palma)
 
-Fecha de actualización: 21/08/2026
-Estado: **Lead cálido — respuesta positiva, pendiente de segunda interacción**
+Fecha de actualización: 22/08/2026
+Estado: **Lead caliente — confirma necesidad y solicita llamada**
 Canal: Instagram DM
+Prioridad: **ALTA — primer cliente potencial con dolor reconocido**
 
 ## Contexto
 
@@ -10,7 +11,7 @@ ASH (Athletic Social House) está construyendo un concepto premium en Palma alre
 
 El contacto inicial se hizo a partir de una señal especialmente interesante: el negocio parece estar todavía en fase de preapertura y ya está generando interés mediante Instagram, eventos y waitlist.
 
-Mensaje enviado:
+Mensaje inicial enviado:
 
 > Hola! He estado viendo lo que estáis montando con ASH en Palma y también los eventos que estáis haciendo antes de abrir.
 >
@@ -18,152 +19,11 @@ Mensaje enviado:
 >
 > Vi un par de ideas que creo que os podrían encajar bastante. Si quieres te las paso por aquí y me dices qué te parecen 😃
 
-Respuesta del lead:
+Primera respuesta del lead:
 
 > Hola Fran, ¿qué tal? Muchas gracias por tu mensaje! Dale, siempre son invitados 😃
 
-## Lectura comercial
-
-La respuesta no significa intención de compra todavía, pero sí da permiso explícito para presentar ideas. Es un avance real frente a outreach sin respuesta.
-
-La oportunidad no debería plantearse como "hacer una web". El problema potencial es mucho más valioso: **convertir el interés previo a la apertura en miembros reales y gestionables**.
-
-La hipótesis comercial pasa a ser:
-
-> ASH puede necesitar un sistema que una waitlist, eventos, interés, seguimiento, referrals y conversión a membership sin deteriorar su imagen premium.
-
-## Producto principal propuesto
-
-### ASH Founding Members System
-
-Posicionamiento:
-
-> Un sistema diseñado para convertir la atención que ASH está generando antes de abrir en miembros reales desde el día 1.
-
-Flujo conceptual:
-
-Instagram / Evento / QR / Recomendación
-→ Waitlist
-→ Perfil del interesado
-→ Segmentación
-→ Seguimiento premium
-→ Evento / visita / preview
-→ Founding Member
-→ Referidos
-→ Membership activa
-
-### Funcionalidades V1 potenciales
-
-1. **Welcome journey premium**
-   - Confirmación inmediata tras entrar en waitlist.
-   - Comunicación con tono y diseño ASH.
-   - Evitar apariencia de automatización genérica.
-
-2. **Segmentación de intereses**
-   - Strength.
-   - Sculpt.
-   - Conditioning.
-   - Stretch.
-   - Social Club.
-   - Eventos.
-   - Preferencias horarias.
-
-3. **Founding Members / Founding Circle**
-   - Crear una capa de exclusividad antes de la apertura.
-   - Posibilidad de plazas limitadas solo si ASH define una limitación real.
-   - No usar falsa escasez.
-
-4. **Eventos como canal de adquisición**
-   - QR o landing por evento.
-   - Registro de asistencia.
-   - Asociación evento → perfil → seguimiento → membership.
-
-5. **Referral system**
-   - Enlace o código personal.
-   - Saber quién ha recomendado a quién.
-   - Medir referrals y conversión.
-
-## Productos complementarios
-
-### ASH Concierge
-
-Concierge digital integrado en web y/o WhatsApp.
-
-Objetivo: orientar a cada persona hacia la acción correcta sin parecer un chatbot estándar.
-
-Rutas posibles:
-- Train.
-- Social Club.
-- Memberships.
-- Events.
-- Visit ASH.
-
-Debe sentirse como una extensión de la marca ASH.
-
-### ASH Command Center
-
-Dashboard privado orientado a decisiones, no a acumular métricas.
-
-Ejemplos de información útil:
-- Waitlist total.
-- Founding Members.
-- Tasa de conversión.
-- Asistentes a eventos.
-- Leads de alta intención.
-- Referidos.
-- Interés por disciplina.
-- Personas que requieren seguimiento.
-
-Principio de diseño:
-
-> El fundador debe abrir el dashboard y saber a quién contactar hoy y por qué.
-
-No construir un dashboard lleno de gráficas sin acciones asociadas.
-
-### ASH Digital Membership Pass — fase posterior
-
-Tarjeta digital de miembro con identidad visual ASH.
-
-Posibles evoluciones:
-- QR.
-- Guest passes.
-- Acceso a eventos.
-- Apple Wallet / Google Wallet.
-- Identificación de Founding Member.
-
-No debe formar parte del MVP salvo que aparezca una necesidad real.
-
-## Criterios de diseño
-
-La ejecución debe ser claramente **premium**.
-
-No exponer Airtable u otras herramientas internas al usuario final. Pueden utilizarse como backend o capa operativa, pero la experiencia visible debe sentirse propia de ASH.
-
-Principios:
-- Interfaz minimalista.
-- Tipografía y lenguaje visual alineados con la marca.
-- Mucho espacio negativo.
-- Fotografía protagonista.
-- Microinteracciones discretas.
-- Mobile-first.
-- Animaciones suaves.
-- Cero apariencia de CRM genérico.
-- Cero estética de chatbot SaaS estándar.
-
-Posibles nombres internos / de presentación:
-- ASH Founding Circle.
-- ASH Members.
-- ASH OS.
-
-No fijar nombre definitivo antes de validar con el cliente.
-
-## Respuesta recomendada al lead
-
-No presentar todas las funcionalidades de golpe y no pedir reunión todavía.
-
-Objetivo de la segunda interacción: conseguir un nuevo microcompromiso: **"sí, enséñamelo"**.
-
-Texto recomendado:
+Segundo mensaje enviado:
 
 > Gracias! 😊 He estado mirando un poco más lo que estáis montando y, de hecho, viendo la web no tocaría demasiado la parte de marca porque creo que el concepto premium está muy bien encaminado.
 >
@@ -175,70 +35,356 @@ Texto recomendado:
 >
 > Tengo un par de ideas visuales bastante chulas para hacerlo. Si te parece, te preparo cómo lo plantearía específicamente para ASH y te lo enseño.
 
-## Si responde "sí, enséñamelo"
+### Respuesta recibida el 22/08/2026
 
-No mandar otro bloque de texto. Crear primero un mini concepto visual de 3 pantallas.
+> Hola, que bueno! Muchas gracias justo ahí necesito ayuda! Planificamos una call y me cuentas?
 
-### Concepto: ASH / Founding Circle
+## Lectura comercial actualizada
 
-Pantalla 1 — Overview
+Esta respuesta cambia el estado del lead de "interesado" a **dolor reconocido + iniciativa para hablar**.
 
-> 127 PEOPLE ARE WAITING.
-> 42 ARE READY TO JOIN.
+No es todavía una venta y no debe tratarse como si lo fuera. El mayor riesgo ahora es sobrepresentar, construir antes de entender el proceso real o intentar vender demasiados productos a la vez.
 
-Pantalla 2 — Community
+La señal importante es la frase **"justo ahí necesito ayuda"**. Ya no hay que convencerle de que el problema existe. La llamada debe descubrir cuánto le cuesta, cómo lo gestiona hoy, qué infraestructura tendrá y cuál es la versión mínima que genera valor antes de abrir.
 
-- Waitlist.
+## Objetivo de la llamada
+
+La llamada NO tiene como objetivo enseñar diez funcionalidades ni cerrar un SaaS completo.
+
+Objetivos, por orden:
+
+1. Entender el proceso actual desde que alguien descubre ASH hasta que se convierte en miembro.
+2. Detectar dónde se pierden personas, datos, seguimiento o conversiones.
+3. Entender herramientas actuales y previstas.
+4. Cuantificar waitlist, eventos, objetivo de miembros y fecha de apertura.
+5. Identificar el cuello de botella principal.
+6. Proponer verbalmente una solución V1 centrada en ese cuello de botella.
+7. Conseguir permiso para enviar una propuesta concreta / prototipo visual.
+
+Principio: **70 % descubrimiento, 30 % solución.**
+
+## Qué vender realmente
+
+No vender "CRM", "automatizaciones", "Airtable" ni "dashboard" como producto principal.
+
+Vender el resultado:
+
+> **Un sistema para convertir la comunidad que ASH está creando antes de abrir en miembros, sin perder oportunidades entre Instagram, eventos y la waitlist.**
+
+Nombre provisional de trabajo:
+
+### ASH Founding Members System
+
+El nombre es secundario. No defenderlo si el cliente usa otra terminología.
+
+## Arquitectura comercial: un producto principal + módulos
+
+### Producto principal — Pre-Opening Conversion Engine
+
+V1 potencial:
+
+1. **Captura unificada de interesados**
+   - Waitlist web.
+   - Eventos.
+   - QR.
+   - Instagram / campañas cuando sea viable.
+   - Referidos.
+
+2. **Perfil único de cada persona**
+   - Fuente.
+   - Intereses.
+   - Eventos a los que ha asistido.
+   - Estado del lead/member.
+   - Notas relevantes.
+
+3. **Segmentación útil**
+   - Strength.
+   - Sculpt.
+   - Conditioning.
+   - Stretch.
+   - Social Club.
+   - Eventos.
+   - Preferencias horarias.
+   - Nivel de intención si puede inferirse con señales reales.
+
+4. **Seguimiento premium**
+   - Welcome journey.
+   - Recordatorios / invitaciones.
+   - Mensajes post-evento.
+   - Invitación a preview / membership.
+   - Evitar spam y automatizaciones impersonales.
+
+5. **Founding Members / Founding Circle**
+   - Estado de candidato / invitado / miembro fundador.
+   - Exclusividad real si ASH define plazas o condiciones limitadas.
+   - Nunca usar falsa escasez.
+
+6. **Command Center accionable**
+   - Total waitlist.
+   - Nuevos interesados.
+   - Asistentes a eventos.
+   - Conversión.
+   - Referidos.
+   - Personas de alta intención.
+   - Lista de personas que requieren acción.
+
+Principio clave:
+
+> El dashboard debe responder "¿a quién tenemos que contactar hoy y por qué?", no enseñar gráficas por enseñar.
+
+### Módulo A — Event Conversion
+
+Para convertir cada evento en un canal medible de adquisición:
+
+Evento → QR / registro → asistencia → perfil → seguimiento → membership.
+
+Muy relevante si ASH seguirá usando eventos como motor de comunidad.
+
+### Módulo B — Referral / Invitations
+
+- Invitaciones personales.
+- Códigos o enlaces de referral.
+- Saber quién trae a quién.
+- Medir conversión por referente.
+- Posibles guest passes en una fase posterior.
+
+### Módulo C — ASH Concierge
+
+Concierge digital de marca para web y/o WhatsApp.
+
+Rutas posibles:
+- Train.
+- Social Club.
+- Memberships.
 - Events.
-- Founding Members.
-- Referrals.
+- Visit ASH.
 
-Pantalla 3 — Lead profile
+No venderlo en la primera llamada salvo que aparezca claramente el problema de consultas repetitivas o navegación/confusión.
+
+### Módulo D — Digital Membership Pass
+
+Fase posterior:
+- QR.
+- Founding Member identity.
+- Guest passes.
+- Acceso a eventos.
+- Apple Wallet / Google Wallet si tiene sentido.
+
+No incluir en MVP por estética o entusiasmo técnico.
+
+## Diseño y experiencia premium
+
+La ejecución visible debe sentirse como un producto de ASH, no como software de agencia.
+
+Principios:
+- Mobile-first.
+- Diseño minimalista.
+- Tipografía y lenguaje visual alineados con la marca.
+- Mucho espacio negativo.
+- Fotografía protagonista.
+- Microinteracciones discretas.
+- Animaciones suaves.
+- Lenguaje sencillo.
+- Cero estética de CRM genérico.
+- Cero apariencia de chatbot SaaS estándar.
+
+Airtable u otras herramientas pueden utilizarse detrás, pero no deben dictar la experiencia del cliente final.
+
+## Preguntas de descubrimiento — llamada
+
+No hacerlas como interrogatorio. Usarlas para mantener una conversación natural.
+
+### Apertura y objetivos
+
+1. ¿Cuándo tenéis previsto abrir?
+2. ¿Con cuántos miembros os gustaría llegar a la apertura o a los primeros 30 días?
+3. ¿Qué parte de todo este proceso es la que más os preocupa ahora mismo?
+
+### Waitlist y adquisición
+
+4. ¿Cuánta gente tenéis ahora mismo en la waitlist aproximadamente?
+5. ¿De dónde está llegando principalmente: Instagram, eventos, boca a boca, web, ads?
+6. Cuando alguien deja sus datos, ¿qué ocurre hoy después?
+7. ¿Qué datos pedís actualmente?
+
+### Eventos
+
+8. ¿Cómo registráis quién se apunta y quién realmente asiste?
+9. ¿Después del evento hacéis algún seguimiento?
+10. ¿Podéis saber qué asistentes terminan haciéndose miembros?
+
+### Membership / venta
+
+11. ¿Cómo queréis vender las memberships: online, llamada, visita, invitación, directamente en el club?
+12. ¿Habrá algún tipo de Founding Membership o condición especial de apertura?
+13. ¿Qué señales os harían decir "esta persona está lista para hacerse miembro"?
+
+### Herramientas
+
+14. ¿Qué plataforma usaréis para reservas / clases?
+15. ¿Dónde guardáis hoy la waitlist?
+16. ¿Tenéis ya CRM, email marketing, WhatsApp Business u otra herramienta?
+17. ¿Cómo se cobrará la membresía?
+
+### Operación
+
+18. ¿Quién va a gestionar esta comunidad y hacer el seguimiento?
+19. ¿Cuánto tiempo queréis dedicar manualmente a esto cada día?
+20. Si el sistema pudiera resolver una sola cosa antes de abrir, ¿cuál tendría más impacto para vosotros?
+
+## Guion recomendado de la llamada
+
+### 0–3 min — Contexto y rapport
+
+- Agradecer la llamada.
+- Explicar que antes de enseñar herramientas se quiere entender cómo lo están organizando.
+- Confirmar fecha de apertura y objetivo.
+
+Frase útil:
+
+> Antes de enseñarte nada prefiero entender cómo lo estáis gestionando ahora, porque igual os sobran la mitad de las cosas que yo había pensado y hay una que sí os puede mover mucho la aguja.
+
+### 3–18 min — Descubrimiento
+
+Seguir el recorrido real:
+
+Descubrimiento → waitlist → evento → seguimiento → visita / oferta → membership.
+
+Buscar fricciones, pérdidas de información y trabajo manual.
+
+### 18–25 min — Devolver el problema
+
+Resumir en sus propias palabras:
+
+> Entonces, si te he entendido bien, ahora mismo el problema no es generar interés, sino saber quién es quién, qué ha hecho cada persona y conseguir que no se enfríe antes de convertirla en miembro.
+
+Solo usar esta formulación si realmente coincide con lo descubierto.
+
+### 25–30 min — Propuesta conceptual
+
+Presentar únicamente la V1 que encaja con lo descubierto.
 
 Ejemplo:
 
-> Sofia M.
->
-> Interested in: Sculpt · Social Club
->
-> Attended: Beach Workout · Summer Session
->
-> Referred by: Carla
->
-> Membership intent: HIGH
->
-> Invite to Founding Membership →
+> Yo empezaría por algo pequeño: centralizar waitlist + eventos, crear un perfil de cada interesado, automatizar solo los seguimientos importantes y daros una vista muy sencilla de quién está listo para que le contactéis. Si eso funciona, luego añadimos referrals, concierge o lo que tenga sentido.
 
-Los datos anteriores son mockups de presentación, no datos reales de ASH.
+Cerrar con un siguiente paso concreto:
 
-## Descubrimiento necesario antes de presupuestar
+> Con lo que me has contado te preparo el flujo exacto, un concepto visual y un presupuesto cerrado para esta primera fase.
 
-Confirmar:
+## Qué NO hacer en la llamada
 
-1. Cuántas personas tienen actualmente en waitlist.
-2. Dónde guardan esos datos.
-3. Cómo venderán y cobrarán memberships.
-4. Qué software de reservas utilizarán.
-5. Qué canales usarán para seguimiento: email, WhatsApp, Instagram u otros.
-6. Fecha prevista de apertura.
-7. Cuántos miembros quieren captar inicialmente.
-8. Qué ocurre hoy después de que alguien deja sus datos en la waitlist.
-9. Cómo registran los asistentes a eventos.
-10. Si tienen equipo comercial/community o lo gestionan los fundadores.
+- No decir que podemos hacer "de todo".
+- No enseñar diez productos.
+- No hablar durante veinte minutos seguidos.
+- No centrar la conversación en IA.
+- No vender Airtable, n8n, APIs o stack técnico.
+- No construir una demo funcional antes de entender su proceso.
+- No prometer integraciones sin saber qué software utilizan.
+- No inventar métricas de conversión.
+- No regalar un proyecto completo por ser el primer cliente.
+- No bajar precio por nervios antes de conocer alcance y valor.
 
-## Rango comercial provisional
+## Estrategia de precio
 
-No comunicar precio todavía.
+No dar precio en el DM previo ni abrir la llamada hablando de precio.
 
-Hipótesis inicial:
-- Implementación: **1.500–2.500 €**.
-- Mantenimiento/evolución: **200–400 €/mes**.
+Tras descubrir alcance, clasificar el proyecto:
 
-Este rango debe ajustarse según integraciones, volumen, software existente y alcance real.
+### Piloto ligero
+
+Cuando la infraestructura es sencilla y hay pocas integraciones.
+
+Referencia interna: **900–1.500 € implementación + 150–300 €/mes**.
+
+### V1 recomendada
+
+Captura + perfiles + segmentación + journeys clave + command center + integración razonable con herramientas existentes.
+
+Referencia interna: **1.500–2.500 € implementación + 200–400 €/mes**.
+
+### Proyecto ampliado
+
+Integraciones complejas, automatización multicanal, referrals completos, membership pass, concierge, etc.
+
+Referencia interna: **3.000 €+ implementación + mantenimiento a definir**.
+
+No presentar estos tres paquetes automáticamente. Primero entender el problema y después ofrecer **una recomendación principal**, con opcionales si procede.
+
+## Posible oferta de entrada
+
+Si el alcance encaja y se quiere reducir riesgo para ambas partes:
+
+> **Piloto preapertura de 30 días**
+
+Objetivo: instalar y probar el flujo desde waitlist/eventos hasta seguimiento y oportunidades de membership antes de escalar.
+
+Debe tener:
+- alcance cerrado;
+- entregables claros;
+- fecha final;
+- métricas observables;
+- precio real, no trabajo gratis;
+- decisión posterior: continuar, ampliar o parar.
+
+## Métricas que podrían importar
+
+Solo usar las que ASH pueda medir realmente:
+
+- Nuevos leads por fuente.
+- % de waitlist que completa información útil.
+- Asistencia a eventos.
+- Follow-up completado.
+- Respuesta a invitaciones.
+- Visitas / previews generadas.
+- Memberships generadas.
+- Conversión por fuente.
+- Conversión por evento.
+- Referidos generados.
+
+No crear un scoring de "lead caliente" hasta disponer de suficientes señales reales.
+
+## Respuesta inmediata al DM
+
+Objetivo: aceptar la llamada sin añadir más venta.
+
+Texto recomendado:
+
+> Sí, claro! Encantado. Creo que por llamada va a ser mucho más fácil porque antes de enseñarte nada prefiero entender cómo estáis gestionando ahora la waitlist, los eventos y la parte de memberships, y así te digo qué montaría yo realmente para ASH. ¿Qué día te viene bien? Con 25–30 min nos da de sobra 😊
+
+Si propone día/hora, confirmar y preparar la llamada. No mandar una presentación extensa antes salvo que la pida.
+
+## Preparación antes de la llamada
+
+Preparar solamente:
+
+1. Una hoja con el recorrido conceptual del cliente:
+   Instagram / Evento / QR → Waitlist → Perfil → Follow-up → Membership → Referral.
+2. 1 mockup visual premium opcional del Command Center o perfil de miembro.
+3. Lista de preguntas de descubrimiento.
+4. Rango de precio interno, NO visible.
+5. Criterios para decidir qué entra y qué no entra en V1.
+
+No invertir horas en construir producto funcional antes de la llamada.
+
+## Criterio de éxito de esta oportunidad
+
+La llamada será un éxito si al terminar conocemos:
+
+- fecha de apertura;
+- tamaño de waitlist;
+- objetivo de miembros;
+- flujo actual;
+- software actual/previsto;
+- principal cuello de botella;
+- responsable del proceso;
+- siguiente paso acordado.
+
+Idealmente, el siguiente paso será:
+
+> "Envíame una propuesta / enséñame cómo quedaría."
 
 ## Oportunidad de producto replicable
-
-El interés estratégico de este lead va más allá de ASH.
 
 Si el problema se valida, el patrón podría replicarse en:
 - Boutique gyms.
@@ -248,16 +394,18 @@ Si el problema se valida, el patrón podría replicarse en:
 - Clubs deportivos premium.
 - Negocios con membresía en fase de preapertura.
 
-Tesis potencial de producto:
+Tesis potencial:
 
 > Sistema de preapertura y conversión de comunidad para negocios de membership premium.
 
-No convertirlo todavía en SaaS. Primero resolver manualmente / semi-manualmente el problema para 1–3 clientes y comprobar si el flujo y las necesidades se repiten.
+No convertirlo todavía en SaaS. Primero resolver manualmente / semi-manualmente el problema para 1–3 clientes y comprobar si el flujo, datos e integraciones se repiten.
 
-## Próximo paso
+## Próximo paso operativo
 
-1. Enviar la respuesta corta recomendada.
-2. Esperar confirmación para ver el concepto.
-3. Si hay interés, crear mockup premium de 3 pantallas.
-4. Usar el mockup para descubrir proceso actual y problema real.
-5. Solo después definir MVP, integraciones y precio final.
+1. Responder aceptando la call y pedir día/hora.
+2. Preparar discovery, no una demo completa.
+3. Realizar llamada de 25–30 minutos.
+4. Documentar literalmente problemas, herramientas, números y lenguaje del cliente.
+5. Diseñar V1 a partir de lo descubierto.
+6. Presentar propuesta con alcance cerrado, precio y mantenimiento.
+7. Solo construir después de aceptación.
