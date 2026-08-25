@@ -23,7 +23,7 @@ El radar de producto se integra ahora en un modelo **service-led**: diagnóstico
 | [**#1**](2026-08-12/) | 12/08/2026 | Señales regulatorias, hostelería y negocio local | 18 → 10 → 3 | **ID-01 (76/100)** — recomendación única |
 | [**#2**](2026-08-12-barrido-2/) | 12/08/2026 | Terreno nuevo: plataformas y APIs, precios de SaaS, tareas automatizables, verticales fuera de hostelería | 18 → 10 → 3 | Mejor candidato **N-04 (64/100)**. **No supera a ID-01** |
 
-**Conclusión combinada: ID-01 sigue siendo el proyecto único.**
+**Conclusión combinada del radar de producto: ID-01 sigue siendo la única apuesta de producto.** Los diagnósticos e implementaciones express son el mecanismo de ingresos y validación; no cuentan como nuevas apuestas de SaaS.
 
 El barrido #2 tuvo su valor en un descarte, no en una idea. La señal más potente de los dos barridos era el **DeCA** —documento de control del transporte, obligatorio el 5 de octubre de 2026, 101.326 empresas afectadas, solo el 17 % preparadas, con inmovilización del vehículo como sanción— y está **ocupada**: doce proveedores en mercancías (uno a 9,90 €/mes, otro gratis hasta la fecha límite) y, en viajeros, la propia patronal del sector (CONFEBUS) distribuyendo su herramienta RutaBUS a ~2.000 asociados.
 
