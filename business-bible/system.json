@@ -1,0 +1,112 @@
+{
+  "version": "2026-08-25.1",
+  "effective_date": "2026-08-25",
+  "source_of_truth": "business-bible/00-BIBLIA-DE-NEGOCIO.md",
+  "operating_model": "service_led_product_discovery",
+  "brand": "Rubedo Systems",
+  "primary_vertical": {
+    "name": "restauracion_multi_local_mallorca",
+    "until": "2026-09-23",
+    "ideal_locations_min": 2,
+    "ideal_locations_max": 15
+  },
+  "allowed_exception": {
+    "name": "ASH",
+    "reason": "active_warm_lead",
+    "new_outbound_in_vertical": false
+  },
+  "active_product_hypothesis": {
+    "id": "ID-01",
+    "name": "CUADRE",
+    "status": "validation_only",
+    "build_authorized": false
+  },
+  "north_star_30_days": {
+    "metric": "cash_collected_eur",
+    "target": 1000,
+    "deadline": "2026-09-23"
+  },
+  "offer_ladder": [
+    {
+      "level": 0,
+      "name": "Rubedo Opportunity Snapshot",
+      "price_eur": 0,
+      "max_internal_minutes": 45,
+      "purpose": "earn_a_conversation"
+    },
+    {
+      "level": 1,
+      "name": "Diagnostico Rubedo",
+      "price_eur_min": 290,
+      "price_eur_max": 750,
+      "delivery_business_days": 5,
+      "creditable_to_implementation_days": 15
+    },
+    {
+      "level": 2,
+      "name": "Implementacion Express",
+      "price_eur_min": 900,
+      "price_eur_max": 2500,
+      "delivery_days_min": 7,
+      "delivery_days_max": 14,
+      "deposit_percent": 50,
+      "primary_kpis": 1
+    },
+    {
+      "level": 3,
+      "name": "Operacion Gestionada",
+      "monthly_price_eur_min": 250,
+      "monthly_price_eur_max": 600
+    }
+  ],
+  "productization_gate": {
+    "minimum_paying_customers": 3,
+    "preferred_paying_customers": 5,
+    "minimum_common_workflow_percent": 70,
+    "requires_recurring_use": true,
+    "requires_official_or_authorized_integration": true,
+    "requires_two_precommitments_to_recurring_payment": true
+  },
+  "capacity": {
+    "max_simultaneous_implementations": 2
+  },
+  "pipeline_stages": [
+    "prospecto",
+    "investigado",
+    "contactado",
+    "respondio",
+    "discovery",
+    "diagnostico_propuesto",
+    "diagnostico_ganado",
+    "implementacion_propuesta",
+    "implementacion_ganada",
+    "recurrencia",
+    "perdido",
+    "pausado"
+  ],
+  "evidence_labels": [
+    "hecho",
+    "inferencia",
+    "hipotesis"
+  ],
+  "prohibited_actions": [
+    "invent_client_metrics_or_results",
+    "build_before_payment_or_explicit_validation_gate",
+    "deploy_unofficial_whatsapp_automation",
+    "store_secrets_in_repository_or_chat",
+    "use_bypass_permissions_with_client_data",
+    "publish_third_party_redesign_without_permission",
+    "open_new_vertical_before_current_review"
+  ],
+  "weekly_scoreboard": [
+    "cash_collected_eur",
+    "decision_maker_conversations",
+    "paid_diagnostics",
+    "implementation_deposits",
+    "measured_results",
+    "free_demo_hours",
+    "confirmed_pains",
+    "refuted_hypotheses"
+  ],
+  "review_date": "2026-09-23"
+}

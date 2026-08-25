@@ -4,6 +4,18 @@ Investigación de oportunidades de micro-SaaS para el mercado español, con vali
 
 - **Contexto del fundador:** una persona, nivel técnico principiante asistido por Claude Code, presupuesto bajo, prioridad = primeros ingresos, MVP de 2 a 4 semanas, un solo proyecto activo.
 
+## Sistema operativo vigente — 25/08/2026
+
+El radar de producto se integra ahora en un modelo **service-led**: diagnóstico pagado → implementación express → recurrencia → micro-SaaS cuando el mismo workflow haya sido pagado por 3–5 clientes. Esto no autoriza a construir más productos; crea una vía de ingresos y evidencia antes del código.
+
+- Vertical principal durante 30 días: restauración multi-local en Mallorca.
+- Hipótesis de producto: CUADRE sigue en validación, sin desarrollo autorizado.
+- Excepción: continuar ASH por ser un lead caliente ya activo.
+- Meta al 23/09/2026: **1.000 € cobrados** y al menos un resultado medido.
+- Fuente de verdad: [Biblia de negocio de Rubedo Systems](business-bible/00-BIBLIA-DE-NEGOCIO.md).
+- Plan vigente: [30 días](business-bible/03-PLAN-30-DIAS.md).
+- Configuración para agentes: [CLAUDE.md](CLAUDE.md) y [system.json](business-bible/system.json).
+
 ## Barridos realizados
 
 | Barrido | Fecha | Alcance | Candidatos | Resultado |
