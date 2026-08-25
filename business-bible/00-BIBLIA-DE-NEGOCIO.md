@@ -1,6 +1,6 @@
 # Biblia de negocio de Rubedo Systems
 
-**Versión:** 2026-08-25.1  
+**Versión:** 2026-08-25.2  
 **Estado:** vigente  
 **Propietario:** Fran / Rubedo Systems  
 **Objetivo:** llegar a ingresos reales antes de ampliar producto, catálogo o equipo.
@@ -296,12 +296,12 @@ Cuando compitan tareas, usar este orden:
 - [`04-FUENTE-VIDEO-Y-AUDITORIA-CRITICA.md`](04-FUENTE-VIDEO-Y-AUDITORIA-CRITICA.md): extracción completa del vídeo y límites.
 - [`system.json`](system.json): versión legible por máquinas del sistema vigente.
 
-## 17. Decisiones que Fran debe confirmar
+## 17. Decisiones confirmadas por Fran
 
-Hasta respuesta, el sistema adopta los valores recomendados:
+**Confirmación:** 25 de agosto de 2026.
 
-1. Restauración como vertical principal durante 30 días; ASH continúa solo por ser lead activo.
-2. Diagnóstico pagado desde el primer cliente, con precio fundador de 290 € y crédito total a implementación.
-3. Objetivo prioritario: 1.000 € cobrados, no MRR teórico ni número de demos.
-4. Máximo dos implementaciones simultáneas.
-5. Construir kits propios y auditables; no depender de los kits promocionales del vídeo.
+1. **Foco:** mantener restauración como vertical principal durante el ciclo actual. ASH continúa únicamente como excepción por ser un lead activo; no se abre nueva prospección en fitness.
+2. **Cobro:** exigir diagnóstico pagado desde el primer cliente. El precio fundador es 290 € y se acredita íntegramente si el cliente contrata la implementación dentro de los 15 días siguientes.
+3. **ASH:** la llamada de discovery todavía no tiene fecha confirmada. Hasta que exista día y hora, no se registra como reunión agendada ni como avance de pipeline. La siguiente acción es conseguir una fecha concreta.
+
+Siguen vigentes las reglas operativas adoptadas para el ciclo: objetivo de 1.000 € cobrados, máximo dos implementaciones simultáneas y creación de kits propios y auditables.
