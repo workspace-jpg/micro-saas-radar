@@ -1,9 +1,39 @@
 # Outreach restauración — 25/08/2026
 
 ## Objetivo
-Priorizar contactos que maximicen probabilidad de conversación y aprendizaje, no solo score bruto. Mezclar un lead de entrada rápida, uno de validación operativa y una apuesta de ticket alto.
+Priorizar contactos que maximicen probabilidad de conversación y aprendizaje, no solo score bruto. Mezclar acceso directo al decisor, dolor verificable y pilotos pequeños.
 
-## 1. La Damasco — PRIORIDAD 1
+## 1. Grupo Boulevard — PRIORIDAD 1 / acceso directo al decisor
+- Airtable: score 92, prioridad A+.
+- Web: https://grupoboulevard.com/corp/
+- Oficina central: Playa de Muro.
+- Email corporativo verificado: boulevard@grupoboulevard.com
+- Hallazgo verificado 25/08/2026: opera múltiples marcas/locales y describe cocina central, compras/producción local y red de distribución propia.
+- Dato aportado por Fran 25/08/2026: trabajó anteriormente como camarero en Grupo Boulevard y conserva contacto directo con el director general.
+- Esta relación reduce drásticamente la fricción de acceso al decisor. No registrar el número personal en repositorio/CRM salvo necesidad explícita.
+- Hipótesis a validar: consolidación manual de reporting, ventas, compras, personal, reservas o conciliaciones entre establecimientos.
+- No vender web básica ni una plataforma grande de entrada.
+
+### Mensaje recomendado
+Hola [Nombre], ¿qué tal? Soy Fran, trabajé hace un tiempo con vosotros en Grupo Boulevard.
+
+Ahora estoy montando Rubedo Systems y estoy trabajando en automatización y herramientas operativas para restauración. Al conocer desde dentro la escala que tenéis, me gustaría hacerte una pregunta muy concreta: ¿seguís teniendo bastante trabajo manual para juntar o revisar información entre locales —ventas, compras, personal, reservas, etc.— o eso ya lo tenéis totalmente resuelto?
+
+No quiero venderte nada a ciegas. Si te parece, te cuento en 10 minutos lo que estoy haciendo y veo si tiene sentido para vosotros o no.
+
+### Estrategia
+El primer objetivo NO es vender. Es conseguir una conversación de 10–15 minutos y descubrir:
+1. Qué software usan por área/local.
+2. Qué información consolidan manualmente.
+3. Qué reportes prepara dirección y cuánto tiempo consumen.
+4. Dónde hay duplicación de trabajo o Excel/WhatsApp entre locales.
+5. Qué problema sería suficientemente molesto para aceptar un piloto.
+
+Si aparece dolor real, ofrecer piloto en 1–2 locales con alcance y KPI muy concretos. El acceso directo al director general convierte este lead en la mejor oportunidad inmediata del pipeline de restauración.
+
+---
+
+## 2. La Damasco — PRIORIDAD 2
 - Airtable: score 85, prioridad A.
 - Web: https://www.restauranteladamasco.com/
 - Email verificado: ladamasco.palma@gmail.com
@@ -25,7 +55,7 @@ Enviar email hoy. Si responden, preparar microauditoría visual de 60 segundos y
 
 ---
 
-## 2. TOKI Sushi Palma — PRIORIDAD 2
+## 3. TOKI Sushi Palma — PRIORIDAD 3
 - Airtable: score 80, prioridad A.
 - Web: https://www.tokimallorca.com/
 - WhatsApp verificado en web: 650 490 315.
@@ -44,34 +74,6 @@ Estoy montando automatizaciones muy simples para restaurantes que mantienen What
 
 ### Siguiente paso
 Enviar WhatsApp breve. Si confirman gestión manual, construir microdemo específica. Si no existe dolor, no insistir con automatización.
-
----
-
-## 3. Grupo Boulevard — PRIORIDAD 3 / ticket alto
-- Airtable: score 92, prioridad A+.
-- Web: https://grupoboulevard.com/corp/
-- Oficina central: Playa de Muro.
-- Email corporativo verificado: boulevard@grupoboulevard.com
-- Hallazgo verificado 25/08/2026: opera múltiples marcas/locales y describe cocina central, compras/producción local y red de distribución propia.
-- Hipótesis a validar: consolidación manual de reporting, ventas, compras, personal, reservas o conciliaciones entre establecimientos.
-- No vender web básica.
-
-### Email recomendado
-Asunto: Operativa multi-local de Grupo Boulevard
-
-Buenos días,
-
-Soy Fran, de Rubedo Systems, en Mallorca. He estado revisando Grupo Boulevard y, por el número de marcas, locales y la operativa central que gestionáis, estoy investigando un problema muy concreto en grupos de restauración: cuánto trabajo manual sigue existiendo para consolidar datos de ventas, compras, personal, reservas o liquidaciones entre establecimientos.
-
-No doy por hecho que os ocurra; precisamente quiero validarlo con alguien de operaciones, administración o finanzas. Si hay fricción real, mi propuesta sería probar una solución muy acotada en 1–2 locales antes de hablar de nada mayor.
-
-¿Podríais indicarme quién sería la persona adecuada para una conversación de 15 minutos?
-
-Gracias,
-Fran — Rubedo Systems
-
-### Siguiente paso
-Enviar al email central y buscar derivación a operaciones/administración/finanzas. Objetivo inicial: entrevista de 15 minutos, no propuesta cerrada.
 
 ---
 
