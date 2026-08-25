@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-25.1",
+  "version": "2026-08-25.2",
   "effective_date": "2026-08-25",
   "source_of_truth": "business-bible/00-BIBLIA-DE-NEGOCIO.md",
   "operating_model": "service_led_product_discovery",
@@ -8,12 +8,17 @@
     "name": "restauracion_multi_local_mallorca",
     "until": "2026-09-23",
     "ideal_locations_min": 2,
-    "ideal_locations_max": 15
+    "ideal_locations_max": 15,
+    "confirmed_by_owner": true,
+    "confirmed_at": "2026-08-25"
   },
   "allowed_exception": {
     "name": "ASH",
     "reason": "active_warm_lead",
-    "new_outbound_in_vertical": false
+    "new_outbound_in_vertical": false,
+    "discovery_call_date": null,
+    "discovery_call_status": "not_scheduled",
+    "next_action": "secure_specific_date_and_time"
   },
   "active_product_hypothesis": {
     "id": "ID-01",
@@ -39,6 +44,9 @@
       "name": "Diagnostico Rubedo",
       "price_eur_min": 290,
       "price_eur_max": 750,
+      "founder_price_eur": 290,
+      "payment_required": true,
+      "confirmed_by_owner": true,
       "delivery_business_days": 5,
       "creditable_to_implementation_days": 15
     },
