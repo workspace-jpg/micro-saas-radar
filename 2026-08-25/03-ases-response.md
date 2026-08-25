@@ -4,60 +4,68 @@
 
 **ASES Jiu-Jitsu Valencia — RESPONDIÓ / OPORTUNIDAD ABIERTA**
 
-Respuesta del lead: indican que ya utilizan una app para gestionar el gimnasio, pero están dispuestos a escuchar nuestra propuesta.
+Primera respuesta del lead: indican que ya utilizan una app para gestionar el gimnasio, pero están dispuestos a escuchar nuestra propuesta.
+
+Segunda respuesta: vuelven a interpretar la propuesta como una posible sustitución de su app y aclaran que no les interesa cambiarla.
 
 ## Lectura estratégica
 
+El problema no es necesariamente falta de interés: el mensaje ha quedado demasiado cerca del marco mental “otra app/sistema para el gimnasio”. Debemos corregirlo inmediatamente.
+
 No debemos competir con su software de gestión ni ofrecer otra app de reservas, socios o asistencia.
 
-El ángulo pasa a ser una **capa complementaria de crecimiento y conversión** que funcione encima de su sistema actual:
+El ángulo pasa a ser un **servicio complementario de captación, conversión y recuperación** que funciona por fuera de su software actual y que, si más adelante aporta valor, puede conectarse a él sin obligarles a cambiar nada.
+
+Núcleo de la oferta:
 
 **interesado → clase gratuita → asistencia → seguimiento → alta**
 
-Y como segunda palanca:
+Segunda palanca:
 
 **alumno inactivo → detección → reactivación → vuelta al tatami**
 
 ## Propuesta candidata: Growth Layer para academias de artes marciales
 
-Funciones que podemos construir sin sustituir su app:
+Funciones posibles sin sustituir su app:
 
 1. Captura de interesados desde web, Instagram, Google o WhatsApp.
-2. Registro automático del origen y tipo de interesado (adulto, niño, NoGi, competición, etc.).
-3. Reserva o registro de clase gratuita.
-4. Recordatorios antes de la prueba.
-5. Recuperación de no-shows.
-6. Seguimiento 12–24 h después de la clase para convertir la prueba en inscripción.
-7. Secuencia corta para interesados que probaron pero no se apuntaron.
-8. Reactivación de alumnos inactivos usando exportación/API de la app existente cuando sea posible.
-9. Dashboard de métricas: consultas, pruebas reservadas, asistencia, conversiones, no-shows y reactivaciones.
+2. Registro del origen y tipo de interesado.
+3. Recordatorios antes de una clase de prueba.
+4. Recuperación de no-shows.
+5. Seguimiento 12–24 h después de la clase para convertir la prueba en inscripción.
+6. Secuencia corta para interesados que probaron pero no se apuntaron.
+7. Reactivación de alumnos inactivos mediante exportación/API solo si su app lo permite y si se valida interés.
+8. Dashboard de métricas de conversión solo como herramienta interna/complementaria, nunca como sustituto de su gestor.
 
-## Principio comercial
+## Cambio de lenguaje
 
-No decir: "tenemos una app mejor".
+Evitar por ahora las palabras “app”, “sistema”, “software” y “gestión” porque están provocando una objeción equivocada.
 
-Decir: **"Si vuestra gestión interna ya está resuelta, mejor. Nosotros trabajaríamos en lo que ocurre antes y después de esa app: convertir más interesados y recuperar alumnos que se enfrían."**
+En su lugar hablar de:
 
-## Información crítica que necesitamos ahora
+- servicio complementario,
+- seguimiento de personas interesadas,
+- convertir más clases gratuitas en alumnos,
+- recuperar personas que preguntaron o probaron y no se apuntaron,
+- trabajar con lo que ya utilizan.
 
-Preguntar qué app utilizan. Con el nombre exacto de la herramienta podremos revisar qué funcionalidades ya incluye y diseñar una propuesta que cubra únicamente huecos reales, evitando duplicidad.
+## Respuesta recomendada tras el malentendido
 
-## Respuesta recomendada
-
-> Sí, justo no me refería a sustituir vuestra app de gestión. Si esa parte ya la tenéis resuelta, mejor.
+> Sí, totalmente, y perdona porque creo que me expliqué mal 😅 No os proponemos sustituir vuestra app ni cambiar cómo gestionáis el gimnasio.
 >
-> Lo que tenía en mente es una capa complementaria enfocada a conversión y recuperación: alguien os descubre, pide la clase gratuita, recibe recordatorio, si no viene se intenta recuperar y, si entrena pero no se apunta, se hace seguimiento después. También se puede usar para detectar y reactivar alumnos que llevan un tiempo sin entrenar.
+> La idea va por otro lado: ayudaros a convertir más gente que pregunta o viene a una clase gratuita en alumnos, y recuperar a quienes muestran interés pero se quedan por el camino.
 >
-> La idea es que trabaje alrededor de vuestra app, no que tengáis que cambiar vuestra operativa.
+> Es decir, trabajaríamos el seguimiento comercial alrededor de lo que ya tenéis. Vuestra app seguiría exactamente igual.
 >
-> ¿Qué app utilizáis actualmente? Así reviso qué cubre ya y os enseño solo una propuesta con cosas que realmente no tengáis.
+> Si os parece, os puedo enseñar un ejemplo muy sencillo de lo que quiero decir y en un minuto veis si os aporta algo.
 
-## Siguiente paso
+## Objetivo inmediato
 
-Cuando ASES indique qué app utiliza:
+No pedir todavía el nombre de la app. Primero conseguir que entiendan la categoría de la propuesta y acepten ver un ejemplo. Si responden positivamente, entonces preguntar cómo gestionan actualmente:
 
-1. Investigar sus funciones reales.
-2. Separar funcionalidades ya cubiertas vs huecos.
-3. Elegir una sola propuesta de ROI fácil de explicar.
-4. Preparar un visual/demo específico de ASES.
-5. No construir integración real hasta validar interés comercial.
+1. solicitudes de clase gratuita;
+2. personas que no se presentan;
+3. seguimiento después de la prueba;
+4. antiguos alumnos o alumnos inactivos.
+
+A partir de esas respuestas detectar un hueco real antes de diseñar o construir nada.
